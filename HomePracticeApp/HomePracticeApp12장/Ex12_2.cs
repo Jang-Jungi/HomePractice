@@ -1,18 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace HomePracticeApp12장
 {
-    class Employee // Employee class 선언
+    class Employee1 // Employee class 선언
     {
-        private string name;
-        private int age;
-
-        public string Name { get { return name; } set { name = value; } }  // name get, set
-        public int Age { get { return age; } set { age = value; } } // age get, set
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
-    class Ex12_1
+
+    class Ex12_2
     {
-        static void Main1(string[] args)
+        static void Main2(string[] args)
         {
             Console.WriteLine("Property의 개념");
             Employee obj = new();  // obj 객체 생성

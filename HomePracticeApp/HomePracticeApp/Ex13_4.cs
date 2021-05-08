@@ -8,7 +8,7 @@ namespace HomePracticeApp
 {
     class Ex13_4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             Console.WriteLine("가변 배열 행렬");
 
