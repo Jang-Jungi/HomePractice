@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePracticeApp13장", "HomePracticeApp\HomePracticeApp13장.csproj", "{35F54899-DA55-48C6-B989-104A7B040367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomePracticeApp13장", "HomePracticeApp\HomePracticeApp13장.csproj", "{35F54899-DA55-48C6-B989-104A7B040367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePracticeApp12장", "HomePracticeApp12장\HomePracticeApp12장.csproj", "{71CF1FDD-23D7-44E5-8843-CD45786B1748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomePracticeApp12장", "HomePracticeApp12장\HomePracticeApp12장.csproj", "{71CF1FDD-23D7-44E5-8843-CD45786B1748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePracticeApp14장", "HomePracticeApp14장\HomePracticeApp14장.csproj", "{BBEA619D-22A5-4381-9D08-89D442D09328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{71CF1FDD-23D7-44E5-8843-CD45786B1748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CF1FDD-23D7-44E5-8843-CD45786B1748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CF1FDD-23D7-44E5-8843-CD45786B1748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEA619D-22A5-4381-9D08-89D442D09328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEA619D-22A5-4381-9D08-89D442D09328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEA619D-22A5-4381-9D08-89D442D09328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEA619D-22A5-4381-9D08-89D442D09328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
