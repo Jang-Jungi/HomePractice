@@ -9,6 +9,7 @@ namespace _3번
     class HybridCar : ElecticCar
     {
         public string Name { get; set; }
+        public string Maker { get; set; }
         public string Color { get; set; }
         public int YearNodel { get; set; }
         public int MaxSpeed { get; set; }
@@ -17,7 +18,7 @@ namespace _3번
         public override void Start() // virtual을 써주어야 자식 클래스에서 정의가 된다.
         {
             base.Start();
-            Console.WriteLine($"{this.Name} 고양이 {this.Color}이(가) ZZ잡니다!");
+            Console.WriteLine($"{this.Name}의 시동을 겁니다");
         }
     }
 }
