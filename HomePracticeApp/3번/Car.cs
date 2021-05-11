@@ -8,9 +8,17 @@ namespace _3번
 {
     class Car
     {
-        public virtual void Start() => Console.WriteLine($"아이오닉의 시동을 겁니다.");
-        public void Accelerate() { Console.WriteLine($"최대시속 220km/h로 가속합니다"); }
-        public void TurnRight() { Console.WriteLine($"아이오닉을 우회전합니다"); }
-        public void Brake() { Console.WriteLine($"아이오닉의 브레이크를 밟습니다"); }
+        public string Name { get; set; }
+        public string Maker { get; set; }
+        public string Color { get; set; }
+        public int YearNodel { get; set; }
+        public int MaxSpeed { get; set; }
+        public string UniqueNumber { get; set; }
+
+        public void Start() => Console.WriteLine($"{Name}의 시동을 겁니다.");
+        public void Accelerate() { Console.WriteLine($"최대시속 {MaxSpeed}km/h로 가속합니다"); }
+        public virtual void Recharge() { Console.WriteLine("달리면서 배터리를 충전합니다"); }
+        public void TurnRight() { Console.WriteLine($"{Name}을 우회전합니다"); }
+        public void Brake() { Console.WriteLine($"{Name}의 브레이크를 밟습니다"); }
     }
 }
